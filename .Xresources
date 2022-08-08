@@ -1,0 +1,55 @@
+! Base colors
+*.foreground:  #E1E1E1
+*.background:  #1C2023
+*.cursorColor: #778899
+
+*.color0:  #1C2023
+*.color1:  #BF616A
+*.color2:  #A3BE8C
+*.color3:  #EBCB8B
+*.color4:  #8FA1B3
+*.color5:  #B48EAD
+*.color6:  #96B5B4
+*.color7:  #E1E1E1
+*.color8:  #919BA0
+*.color9:  #BF616A
+*.color10: #A3BE8C
+*.color11: #EBCB8B
+*.color12: #8FA1B3
+*.color13: #B48EAD
+*.color14: #96B5B4
+*.color15: #C0C5CE
+
+! xterm
+xterm*termName: xterm-256color
+xterm*font: monospace
+xterm*faceName: monospace:size=11
+xterm*loginShell: true
+xterm*vt100*geometry: 90x34
+xterm*saveLines: 2000
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+xterm*eightBitInput: false
+
+! URxvt
+URxvt*saveline: 15000
+URxvt*termName: rxvt-256color
+URxvt*iso14755: false
+URxvt*depth: 32
+URxvt*background: [95]#1C2023
+URxvt*scrollBar: false
+URxvt*scrollBar_right: false
+URxvt*internalBorder: 0
+URxvt*externalBorder: 0
+URxvt*letterSpace: -1
+URxvt.font: xft:monospace:size=11
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.urlLauncher: exo-open
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+URxvt.geometry: 90x34
+URxvt.tabbed.tabbar-fg: 4
+URxvt.tabbed.tabbar-bg: 16
+URxvt.tabbed.tab-fg: 15
+URxvt.tabbed.tab-bg: 4
+URxvt*buffered: false

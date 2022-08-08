@@ -1,0 +1,13 @@
+# test mako config
+
+max-visible=3
+sort=+time
+layer=top
+anchor=top-right
+font=Cantarell 11
+background-color=#54545464
+text-color=#FFFFFFFF
+icons=1
+border-size=0
+default-timeout=3000
+
