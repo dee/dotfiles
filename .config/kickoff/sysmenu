@@ -1,0 +1,3 @@
+shutdown="exec systemctl shutdown"
+test_echo="exec echo test"
+logout="exec swaymsg exit"

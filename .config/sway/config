@@ -58,8 +58,7 @@ set $menu kickoff
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 
-input type:keyboard
-{
+input type:keyboard {
   xkb_layout de,ru
   xkb_options grp:win_space_toggle
 }
@@ -93,7 +92,9 @@ input type:touchpad {
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    # bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+
+    bindsym $mod+p exec kickoff --from-file ~/.config/kickoff/sysmenu --config ~/.config/kickoff/sysmenu.toml
 
 # Moving around:
 
