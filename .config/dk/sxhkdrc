@@ -3,7 +3,8 @@
 
 # launcher
 mod4 + d
-	dmenu_run
+#	dmenu_run
+    dmenu_run -nb "#D7E2D3" -nf "#475C4D" -sb "#00E59B" -fn "jetbrains mono:pixelsize=18"
 
 # terminal
 mod4 + Return
