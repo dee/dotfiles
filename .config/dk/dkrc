@@ -20,14 +20,14 @@ fi
 	# ------------------------
 
 	# initialize 10 workspaces (1-10) (default: 1/monitor)
-	dkcmd set numws=10
+	dkcmd set numws=5
 
 	# default workspace '_' values used when allocating new workspaces
 	# can be applied to all existing workspaces when passed 'apply' after ws=_
-	dkcmd set ws=_ apply layout=tile master=1 stack=3 gap=0 msplit=0.5 ssplit=0.5
+	dkcmd set ws=_ apply layout=tile master=1 stack=3 gap=3 msplit=0.5 ssplit=0.5
 
 	# use grid layout, padding, and gaps on workspace 10
-	dkcmd set ws=10 layout=grid pad left=200 right=200 top=100 bottom=100 gap width=50
+	dkcmd set ws=5 layout=grid pad left=200 right=200 top=100 bottom=100 gap width=50
 
 	# change workspace names (default: number == name)
 	# dkcmd set \
@@ -76,7 +76,7 @@ fi
 	dkcmd set win_minwh=50 win_minxy=10
 
 	# disable gaps and borders in single window layouts
-	dkcmd set smart_gap=false smart_border=false
+	dkcmd set smart_gap=true smart_border=true
 
 	# define mouse mod and move/resize buttons
 	dkcmd set mouse mod=alt move=button1 resize=button3

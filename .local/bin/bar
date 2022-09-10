@@ -27,7 +27,8 @@ font2=""
 font3=""
 
 # xft fonts
-font0="jetbrains mono:pixelsize=18"
+#font0="jetbrains mono:pixelsize=18"
+font0="iosevka:pixelsize=18"
 # font1="Font Awesome 5 Brands:pixelsize=20"
 # font2="icomoon:pixelsize=18"
 # font3="Anonymice Nerd Font Mono:pixelsize=18"
