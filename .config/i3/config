@@ -25,7 +25,7 @@ gaps inner 8
 gaps outer 0
 
 # font
-font pango:Iosevka 11
+font pango:Fira Sans 11
 
 # mod key used for most binds
 # Mod1 = Alt
@@ -40,7 +40,7 @@ set $right semicolon
 
 ###############        Bar         ##################
 bar {
-    font pango:Iosevka 11
+    font pango:Fira Sans 11
     status_command i3status-rs
     colors {
         separator $bg2
@@ -67,6 +67,9 @@ exec setxkbmap -layout de,ru -option grp:ctrl_shift_toggle
 
 # needed for super to launch rofi through ksuperkey, see ~/.xprofile
 bindsym $Mod+d exec --no-startup-id dmenu_run -nb "#D7E2D3" -nf "#475C4D" -sb "#00E59B" -fn "iosevka:size=11"
+
+# restore wallpaper
+exec nitrogen --restore
 
 #############         Bindings           ##################
 
