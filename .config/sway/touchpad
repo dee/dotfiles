@@ -1,8 +1,0 @@
-input "type:touchpad" {
-       tap enabled
-       dwt enabled
-       drag enabled
-       scroll_factor 0.7
-       pointer_accel 0.2
-       accel_profile adaptive
-}

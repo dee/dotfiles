@@ -1,5 +1,0 @@
-input "type:keyboard" {
-	xkb_layout $lang
-	repeat_delay 300
-	repeat_rate 40
-}

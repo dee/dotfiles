@@ -1,3 +1,0 @@
-shutdown="exec systemctl poweroff"
-logout="exec swaymsg exit"
-reboot="exec systemctl reboot"
