@@ -17,6 +17,8 @@ set $fg1 #DBE3D6
 set $sel #5EAC74 
 # crayola's forest green
 
+set $font pango:Fira Sans 14 
+
 # border & title
 for_window [class="^.*"] border pixel 1, title_format "<b> %class >> %title </b>"
 
@@ -25,7 +27,7 @@ gaps inner 8
 gaps outer 0
 
 # font
-font pango:Fira Sans 11
+font $font
 
 # mod key used for most binds
 # Mod1 = Alt
@@ -40,7 +42,7 @@ set $right semicolon
 
 ###############        Bar         ##################
 bar {
-    font pango:Fira Sans 11
+    font $font
     status_command i3status-rs
     colors {
         separator $bg2
@@ -79,15 +81,15 @@ bindsym Mod1+q kill
 bindsym Mod1+F4 kill
 
 # launchers
-bindsym Control+space exec --no-startup-id rofi_run -r
+# bindsym Control+space exec --no-startup-id rofi_run -r
 
 # core
-bindsym $Mod+w          exec --no-startup-id firefox
+bindsym $Mod+w          exec --no-startup-id waterfox
 bindsym $Mod+f          exec --no-startup-id pcmanfm
 bindsym $Mod+Return     exec --no-startup-id alacritty
 
 # logout script
-bindsym $Mod+x exec --no-startup-id rofi_run -l
+bindsym $Mod+x exec --no-startup-id sh -c '(echo "systemctl reboot" && echo "systemctl shutdown" && echo "i3-msg exit") | dmenu'
 
 # Screenshot
 bindsym Print exec --no-startup-id "scrot '%S.png' -e 'mv $f $$(xdg-user-dir PICTURES)/ArchLabs-%S-$wx$h.png ; feh $$(xdg-user-dir PICTURES)/ArchLabs-%S-$wx$h.png'"
