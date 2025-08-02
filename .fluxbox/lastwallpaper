@@ -1,1 +1,1 @@
-fbsetroot|-foreground #404040 -background #535353 -gradient flatgradientelliptic|style|:0
+fbsetroot|-foreground rgb:4/4/4 -solid rgb:4/4/4|style|:0
