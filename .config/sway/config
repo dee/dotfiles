@@ -193,4 +193,6 @@ bar {
 
 gaps inner 5
 gaps outer 10
+default_border none
+for_window [title="^.*"] border none
 
