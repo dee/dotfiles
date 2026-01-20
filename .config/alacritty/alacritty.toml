@@ -21,7 +21,7 @@ size = 11.0
 
 [font.bold]
 family = "Monocode"
-style = "Medium"
+style = "Regular"
 
 [font.normal]
 family = "Monocode"
@@ -31,25 +31,25 @@ style = "Regular"
 hide_when_typing = true
 
 [scrolling]
-history = 0
+history = 100
 multiplier = 3
 
 [selection]
 semantic_escape_chars = ''',│`|:"' ()[]{}<>'''
 
 [window]
-decorations = "None"
-dynamic_padding = false
+# decorations = "None"
+# dynamic_padding = false
 opacity = 1.0
 startup_mode = "Windowed"
 
 [window.dimensions]
 columns = 100
-lines = 85
+lines = 35
 
-[window.padding]
-x = 0
-y = 0
+#[window.padding]
+#x = 0
+#y = 0
 
 [colors]
 draw_bold_text_with_bright_colors = false
