@@ -1,0 +1,16 @@
+{
+	"ignored_packages":
+	[
+		"Rust",
+		"Vintage",
+	],
+	"index_files": true,
+	"theme": "GitHub Adaptive.sublime-theme",
+	"color_scheme": "GitHub Dark Legacy.sublime-color-scheme",
+	"font_face": "Consolas",
+	"font_size": 12,
+	"themed_title_bar": false,
+	"ui_scale": 1.5,
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,
+}

@@ -1,0 +1,16 @@
+// Settings in here override those in "LSP-pylsp/LSP-pylsp.sublime-settings"
+// also one need to delete pycodestyle via pip from where it is installed
+{
+	"pylsp.configurationSources": ["ruff"],
+	"pylsp.plugins.pycodestyle.enabled": false,
+	"pylsp.plugins.pycodestyle.exclude": ["*"],
+	"pylsp.plugins.pycodestyle.ignore": ["E501", "W503", "E203"],
+	"pylsp.plugins.pycodestyle.maxLineLength": 999,
+	"pylsp.plugins.pyflakes.enabled": false,
+	"pylsp.plugins.mccabe.enabled": false,
+	"pylsp.plugins.flake8.enabled": false,
+	"pylsp.plugins.autopep8.enabled": false,
+	"pylsp.plugins.yapf.enabled": false,
+	"pylsp.plugins.ruff.enabled": true,
+	"pylsp.plugins.ruff.lineLength": 88,
+}
